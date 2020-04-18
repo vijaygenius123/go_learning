@@ -17,3 +17,27 @@
 - Semicolons Arent Required
 - Code Blocks Within Braces
 
+## Strcture Of Go Program
+
+```go
+package main <- Name Of Package
+
+import (    
+	"fmt"     <- Import Required Packages
+)
+
+func main(){     <- Function Header main Is The function That Gets Called
+	fmt.Println("Hello World")   <- Function Body 
+}
+```
+
+```go
+fmt.Println("Hello World") -> From Fmt Package Use Println To Print On Console
+```
+
+To Run The Program
+```bash
+go run <FileName.go> <- To Run The Program
+go build <FileName.go> <- To Build A Executable
+./FileName <- Run The Executable
+```
